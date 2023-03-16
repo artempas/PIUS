@@ -25,7 +25,10 @@ foreach($comments as $comment){
     if ($comment->user->creation_date>$date){
         echo $comment->text.'<br>';
     }
+
 }
+$user5=new User(5,"Artem", "dsajgmail.com", "dahdjka");
+
 
 
 
