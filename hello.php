@@ -12,7 +12,7 @@ use Labs\Comment;
 $user1=new User(1,"Artem", "dsaj@gmail.com", "dahdjka");
 $user2=new User(2,"Artem", "dsaj@gmail.com", "dahdjka");
 echo $user1->creation_date->format('d/m/Y H:i').'<br>';
-$date=new DateTime();;
+$date=new DateTime();
 $user3=new User(3,"Artem", "dsaj@gmail.com", "dahdjka");
 $user4=new User(4,"Artem", "dsaj@gmail.com", "dahdjka");
 $comments=[
@@ -28,7 +28,3 @@ foreach($comments as $comment){
 
 }
 $user5=new User(5,"Artem", "dsajgmail.com", "dahdjka");
-
-
-
-
