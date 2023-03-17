@@ -1,6 +1,6 @@
 <?php
 
-namespace Labs;
+namespace Classes;
 
 class Comment{
     public $text;

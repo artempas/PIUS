@@ -1,12 +1,9 @@
 <?php
+
+use Labs\Class\Comment;
+use Labs\Class\User;
+
 require 'vendor/autoload.php';
-echo "Hello from PHP<br>";
-
-include 'User.php';
-include 'Comment.php';
-
-use Labs\User;
-use Labs\Comment;
 
 
 $user1=new User(1,"Artem", "dsaj@gmail.com", "dahdjka");

@@ -1,10 +1,10 @@
 <?php
 
-namespace Labs;
+namespace Classes;
 use DateTime;
 use Symfony\Component\Validator\Constraints as Assert;
-use Symfony\Component\Validator\ConstraintViolation;
 use Symfony\Component\Validator\Validation;
+
 class User
 {
     // объявление свойства
